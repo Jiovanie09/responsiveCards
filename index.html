@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Responsive cards</title>
+
 </head>
 <body>
     <h1>Responsive Card</h1>
 
     <form action="" method="get" class="formContent">
         <div>
-            <label for="name">Enter You Name:</label>
+            <label for="name">Enter Your Name:</label>
             <input type="text" name="name" id="name" required>
         </div>
         <div>
-            <label for="name">Enter You Email:</label>
+            <label for="name">Enter Your Email:</label>
             <input type="text" name="email" id="email" required>
         </div>
+        <div class="submitButton">
+            <input type="submit" value="Enter">
+        </div>
     </form>
+
+    <div>
+        <h1>
+            You have entered:
+        </h1>
+        <div class="outputValue">
+
+        </div>
+    </div>
 
 </body>
 </html>
